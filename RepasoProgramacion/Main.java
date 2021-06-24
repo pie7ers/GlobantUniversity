@@ -1,8 +1,6 @@
 import java.util.Scanner;
-import java.util.stream.IntStream;
 import java.util.ArrayList;
 import java.util.Random;
-//git clone https://username:pass@github.com/username/GlobantUniversity.git
 
 class Main {
     public static void main(String[] args){
@@ -10,7 +8,6 @@ class Main {
         System.out.println("These are the exercises of basic programming in Java for Globant Univeristy");
 
         String opt = IntroductionMessage();
-        //SaveLastFiveOptions(opt);
 
         while(!opt.equals("EXIT") && !opt.equals("exit")) {            
             HandlerMenu(opt);
